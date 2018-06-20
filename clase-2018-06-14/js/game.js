@@ -10,7 +10,7 @@ var Game = {
   },
   start: function() {
     for (var i = 0; i < Game.cells.length; i++) {
-    Game.cells[i].onclick = Cell.toggle;
+      Game.cells[i].onclick = Cell.toggle;
     };
     Game.next.onclick = Board.nextStep;
   },

@@ -39,3 +39,7 @@ button {
   height: 30px;
   cursor: pointer;
 }
+
+.board li.nextAlive{
+  background-color: #000;
+}
