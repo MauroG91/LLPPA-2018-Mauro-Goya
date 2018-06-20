@@ -18,7 +18,7 @@ var GameOfLife = {
     var newRow = [];
     for (var i = 0; i < cells.length; i++) {
       var cell = cells[i];
-      var isNewAlive = cell.className === 'nextAlive';
+      var isNewAlive = false;
       newRow.push(isNewAlive);
       if (i % 5 === 4){
         newBoard.push(newRow);

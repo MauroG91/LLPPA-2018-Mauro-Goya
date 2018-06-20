@@ -53,38 +53,6 @@ var Board = {
             nextBoard[i][j] = nextState;
           }
         }
-
-
-        // if (currentBoard[i][j]) {
-        //   var contador = 0
-        //   if(i-1 >= 0 && j-1 >= 0){
-        //     if (currentBoard[i-1][j]) {
-        //       contador++;
-        //     }
-        //     if (currentBoard[i][j-1]) {
-        //       contador++;
-        //     }
-        //     if (currentBoard[i-1][j-1]) {
-        //       contador++;
-        //     }
-        //     if (currentBoard[i+1][j-1]) {
-        //       contador++;
-        //     }
-        //     if (currentBoard[i-1][j+1]) {
-        //       contador++;
-        //     }
-        //     if (currentBoard[i+1][j]) {
-        //       contador++;
-        //     }
-        //     if (currentBoard[i][j+1]) {
-        //       contador++;
-        //     }
-        //     if (currentBoard[i+1][j+1]) {
-        //       contador++;
-        //     }
-        //   console.log(i,j, contador);
-        //   }
-        // }
       }
     }
 
